@@ -1,23 +1,130 @@
+@font-face {
+	font-family: "Roboto", "Raleway";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmZiArmlw.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE }
+
+
+
+
 body {
 font-family: "Roboto", sans-serif;
 color: #2e2f42;
 background-color: #fff;
 }
 
+a {
+	text-decoration: none;
+} 
+
+<!--Хедер сторінки-->
 
 
+.logo {
+	font-family: "Raleway";
+	color: #2e2f42;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.16667;
+}
 
+.logo-web {
+	font-family: "Raleway";
+	color: #4d5ae5;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.16667;
+}
+.nav-menu {
+	font-family: "Roboto";
+	color: #2e2f42;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+}
 
+.link {
+	font-family: "Roboto";
+	color: #434455;
+	font-weight: 400;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 1.5;
+}
 
-    	--iris: #4d5ae5;
-    	--ocean: #404bbf;
-    	--navy-blue: #2e2f42;
-    	--green: #31d0aa;
-    	--slate: #434455;
-    	--light-slate: #8e8f99;
-    	--cornflower: #e7e9fc;
-    	--cloud: #f4f4fd;
-    	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-    	--grey: rgba(46, 47, 66, 0.7);
-    	--white: #fff;
-    	--dairy: #fcfcfc;
+<!--Унікальний контент сторінки-->
+
+.title {
+	font-family: "Roboto";
+	color: #fff;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07143;
+}
+.button {
+	font-family: "Roboto";
+	color: #fff;
+	background: #4d5ae5;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	cursor: pointer;
+}
+.title-advan {
+	font-family: "Roboto";
+	color: #434455;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.title-text {
+	font-family: "Roboto";
+	color: #434455;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.title-section {
+	font-family: "Roboto";
+	color: #2e2f42;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11111;
+}
+
+.name {
+	font-family: "Roboto";
+	color: #2e2f42;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.text-name {
+	font-family: "Roboto";
+	color: #434455;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.logo-web-studio {
+	font-family: "Raleway";
+	color: #f4f4fd;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.16667;
+}
+.text {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 16px;
+	color: #f4f4fd;
+	line-height: 1.5;
+	
+}
+
