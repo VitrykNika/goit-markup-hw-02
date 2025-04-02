@@ -20,23 +20,27 @@ a {
 	text-decoration: none;
 } 
 
-<!--Хедер сторінки-->
+/*Хедер сторінки*/
 
 
 .logo {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
+}
+
+.logo-studio {
+	font-family: "Raleway", sans-serif;
 	color: #2e2f42;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 1.16667;
-}
-
-.logo-web {
-	font-family: "Raleway";
-	color: #4d5ae5;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 1.16667;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 .nav-menu {
 	font-family: "Roboto";
@@ -44,6 +48,13 @@ a {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.nav-menu:hover {
+	color: #404bbf;
+}
+.nav-menu:active {
+	color: #404bbf;
 }
 
 .link {
@@ -54,31 +65,59 @@ a {
 	font-style: normal;
 	line-height: 1.5;
 }
+.link-link {
+color: #434455;
+}
+.link-link:hover {
+color: #404bbf;
+}
+.link-link:active {
+color: #404bbf;
+}
 
-<!--Унікальний контент сторінки-->
+
+/*Унікальний контент сторінки*/
+/*Перша секція*/
+
+.dark-bg {
+	background-color: #2e2f42;
+}
 
 .title {
 	font-family: "Roboto";
-	color: #fff;
+	color: #ffffff;
 	font-weight: 700;
 	font-size: 56px;
-	line-height: 1.07143;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
 }
 .button {
-	font-family: "Roboto";
-	color: #fff;
-	background: #4d5ae5;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	background-color: #4d5ae5;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	cursor: pointer;
+	letter-spacing: 0.04em;
 }
+.button:hover {
+	color: #404bbf;
+}
+.button:active {
+	color: #404bbf;
+}
+
+/*Друга секція*/
+
 .title-advan {
 	font-family: "Roboto";
-	color: #434455;
+	color: #2e2f42;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 
 .title-text {
@@ -87,37 +126,52 @@ a {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
-.title-section {
+/*Третя секція*/
+
+.team {
+background-color: #f4f4fd;
+}
+.title-our {
+	text-align: center;
 	font-family: "Roboto";
 	color: #2e2f42;
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.11111;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+.team-card {
+	background-color: #ffffff;
 }
 
-.name {
+.card {
 	font-family: "Roboto";
 	color: #2e2f42;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 
-.text-name {
+.text-card {
 	font-family: "Roboto";
 	color: #434455;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
+
 .logo-web-studio {
 	font-family: "Raleway";
 	color: #f4f4fd;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 1.16667;
+	line-height: 1.17;
 }
 .text {
 	font-family: "Roboto";
@@ -125,6 +179,6 @@ a {
 	font-size: 16px;
 	color: #f4f4fd;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 	
 }
-
