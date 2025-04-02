@@ -32,6 +32,9 @@ a {
 	text-transform: uppercase;
 	color: #4d5ae5;
 }
+.nav-menu:active {
+	color: #404bbf;
+}
 
 .logo-studio {
 	font-family: "Raleway", sans-serif;
@@ -58,15 +61,15 @@ a {
 }
 
 .link {
+	font-style: normal;
+}
+.link-link {
 	font-family: "Roboto";
 	color: #434455;
 	font-weight: 400;
 	font-size: 16px;
-	font-style: normal;
 	line-height: 1.5;
-}
-.link-link {
-color: #434455;
+	letter-spacing: 0.02em;
 }
 .link-link:hover {
 color: #404bbf;
@@ -103,10 +106,10 @@ color: #404bbf;
 	letter-spacing: 0.04em;
 }
 .button:hover {
-	color: #404bbf;
+	background-color: #404bbf;
 }
 .button:active {
-	color: #404bbf;
+	background-color: #404bbf;
 }
 
 /*Друга секція*/
